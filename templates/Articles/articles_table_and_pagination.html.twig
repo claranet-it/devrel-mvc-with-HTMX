@@ -1,0 +1,45 @@
+<div id="articles-table-and-pagination" class="w-full">
+    <table class="min-w-full w-full table-fixed divide-y divide-blue-200" style="width:100%;">
+        <thead class="bg-blue-100">
+        <tr>
+            <th scope="col" class="px-6 py-3 text-left text-xs font-bold text-blue-900 uppercase tracking-wider">Id</th>
+            <th scope="col" class="px-6 py-3 text-left text-xs font-bold text-blue-900 uppercase tracking-wider">Name</th>
+            <th scope="col" class="px-6 py-3 text-left text-xs font-bold text-blue-900 uppercase tracking-wider">Price</th>
+            <th scope="col" class="px-6 py-3 text-left text-xs font-bold text-blue-900 uppercase tracking-wider">Actions</th>
+        </tr>
+        </thead>
+        <tbody hx-confirm="Are you sure?" hx-target="closest tr" hx-swap="outerHTML swap:1s">
+        {% for article in articles %}
+            <tr>
+                <td class="px-6 py-4 whitespace-nowrap">
+                    <div class="text-sm text-blue-900">{{ article.id }}</div>
+                </td>
+                <td class="px-6 py-4 whitespace-nowrap">
+                    <div class="text-sm text-blue-900">{{ article.title }}</div>
+                </td>
+                <td class="px-6 py-4 whitespace-nowrap">
+                    <div class="text-sm text-blue-900">{{ article.price }}</div>
+                </td>
+                <td class="px-6 py-4 whitespace-nowrap">
+                    <button class="bg-red-500 hover:bg-red-700 text-white py-2 px-4 rounded" hx-delete="/articles/{{ article.id }}">
+                        Cancel
+                    </button>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    <div class="flex justify-center mt-6 space-x-2">
+        <button class="px-3 py-1 bg-blue-700 text-white rounded hover:bg-blue-800 disabled:opacity-50"
+                hx-get="/articles/page?page={{ previousPage }}"
+                hx-target="#articles-table-and-pagination"
+                hx-swap="outerHTML"
+                {% if previousPage is null %}disabled{% endif %}>Prev</button>
+        <span class="px-3 py-1">Pagina {{ currentPage }} di {{ totalPages }}</span>
+        <button class="px-3 py-1 bg-blue-700 text-white rounded hover:bg-blue-800 disabled:opacity-50"
+                hx-get="/articles/page?page={{ nextPage }}"
+                hx-target="#articles-table-and-pagination"
+                hx-swap="outerHTML"
+                {% if nextPage is null %}disabled{% endif %}>Next</button>
+    </div>
+</div>

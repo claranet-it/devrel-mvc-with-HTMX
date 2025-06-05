@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Articles{% endblock %}
+
+{% block body %}
+        <div class="bg-white/90 rounded-3xl shadow-2xl px-16 py-14 max-w-2xl w-full flex flex-col items-center">
+            <h1 class="text-3xl font-bold text-blue-900 mb-2 text-center">Articles List</h1>
+            <div id="articles-table-and-pagination">
+                {% include 'articles/articles_table_and_pagination.html.twig' with {
+                    'articles': articles,
+                    'currentPage': currentPage,
+                    'totalPages': totalPages,
+                    'nextPage': nextPage,
+                    'previousPage': previousPage
+                } %}
+            </div>
+        </div>
+{% endblock %}

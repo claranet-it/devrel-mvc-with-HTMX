@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "title": "First Article",
+    "content": "This is the content of the first article.",
+    "price": 12.99
+  },
+  {
+    "id": 2,
+    "title": "Second Article",
+    "content": "This is the content of the second article.",
+    "price": 18.50
+  },
+  {
+    "id": 3,
+    "title": "Third Article",
+    "content": "This is the content of the third article.",
+    "price": 7.25
+  },
+  {
+    "id": 4,
+    "title": "Fourth Article",
+    "content": "This is the content of the fourth article.",
+    "price": 15.00
+  },
+  {
+    "id": 5,
+    "title": "Fifth Article",
+    "content": "This is the content of the fifth article.",
+    "price": 22.10
+  },
+  {
+    "id": 6,
+    "title": "Sixth Article",
+    "content": "This is the content of the sixth article.",
+    "price": 13.75
+  },
+  {
+    "id": 7,
+    "title": "Seventh Article",
+    "content": "This is the content of the seventh article.",
+    "price": 9.99
+  },
+  {
+    "id": 8,
+    "title": "Eighth Article",
+    "content": "This is the content of the eighth article.",
+    "price": 27.45
+  },
+  {
+    "id": 9,
+    "title": "Ninth Article",
+    "content": "This is the content of the ninth article.",
+    "price": 11.30
+  },
+  {
+    "id": 10,
+    "title": "Tenth Article",
+    "content": "This is the content of the tenth article.",
+    "price": 16.80
+  },
+  {
+    "id": 11,
+    "title": "Article 11",
+    "content": "This is the content of article 11.",
+    "price": 8.99
+  },
+  {
+    "id": 12,
+    "title": "Article 12",
+    "content": "This is the content of article 12.",
+    "price": 19.99
+  },
+  {
+    "id": 13,
+    "title": "Article 13",
+    "content": "This is the content of article 13.",
+    "price": 14.50
+  },
+  {
+    "id": 14,
+    "title": "Article 14",
+    "content": "This is the content of article 14.",
+    "price": 20.00
+  },
+  {
+    "id": 15,
+    "title": "Article 15",
+    "content": "This is the content of article 15.",
+    "price": 17.25
+  },
+  {
+    "id": 16,
+    "title": "Article 16",
+    "content": "This is the content of article 16.",
+    "price": 21.40
+  },
+  {
+    "id": 17,
+    "title": "Article 17",
+    "content": "This is the content of article 17.",
+    "price": 10.60
+  },
+  {
+    "id": 18,
+    "title": "Article 18",
+    "content": "This is the content of article 18.",
+    "price": 13.10
+  },
+  {
+    "id": 19,
+    "title": "Article 19",
+    "content": "This is the content of article 19.",
+    "price": 25.00
+  },
+  {
+    "id": 20,
+    "title": "Article 20",
+    "content": "This is the content of article 20.",
+    "price": 18.75
+  },
+  {
+    "id": 21,
+    "title": "Article 21",
+    "content": "This is the content of article 21.",
+    "price": 11.10
+  },
+  {
+    "id": 22,
+    "title": "Article 22",
+    "content": "This is the content of article 22.",
+    "price": 14.99
+  },
+  {
+    "id": 23,
+    "title": "Article 23",
+    "content": "This is the content of article 23.",
+    "price": 13.33
+  },
+  {
+    "id": 24,
+    "title": "Article 24",
+    "content": "This is the content of article 24.",
+    "price": 22.50
+  },
+  {
+    "id": 25,
+    "title": "Article 25",
+    "content": "This is the content of article 25.",
+    "price": 16.16
+  },
+  {
+    "id": 26,
+    "title": "Article 26",
+    "content": "This is the content of article 26.",
+    "price": 17.77
+  },
+  {
+    "id": 27,
+    "title": "Article 27",
+    "content": "This is the content of article 27.",
+    "price": 19.80
+  },
+  {
+    "id": 28,
+    "title": "Article 28",
+    "content": "This is the content of article 28.",
+    "price": 12.12
+  },
+  {
+    "id": 29,
+    "title": "Article 29",
+    "content": "This is the content of article 29.",
+    "price": 23.45
+  },
+  {
+    "id": 30,
+    "title": "Article 30",
+    "content": "This is the content of article 30.",
+    "price": 15.99
+  },
+  {
+    "id": 31,
+    "title": "Article 31",
+    "content": "This is the content of article 31.",
+    "price": 18.88
+  },
+  {
+    "id": 32,
+    "title": "Article 32",
+    "content": "This is the content of article 32.",
+    "price": 11.75
+  },
+  {
+    "id": 33,
+    "title": "Article 33",
+    "content": "This is the content of article 33.",
+    "price": 13.44
+  },
+  {
+    "id": 34,
+    "title": "Article 34",
+    "content": "This is the content of article 34.",
+    "price": 17.60
+  },
+  {
+    "id": 35,
+    "title": "Article 35",
+    "content": "This is the content of article 35.",
+    "price": 21.11
+  },
+  {
+    "id": 36,
+    "title": "Article 36",
+    "content": "This is the content of article 36.",
+    "price": 12.00
+  },
+  {
+    "id": 37,
+    "title": "Article 37",
+    "content": "This is the content of article 37.",
+    "price": 14.20
+  },
+  {
+    "id": 38,
+    "title": "Article 38",
+    "content": "This is the content of article 38.",
+    "price": 16.30
+  },
+  {
+    "id": 39,
+    "title": "Article 39",
+    "content": "This is the content of article 39.",
+    "price": 19.99
+  },
+  {
+    "id": 40,
+    "title": "Article 40",
+    "content": "This is the content of article 40.",
+    "price": 22.22
+  },
+  {
+    "id": 41,
+    "title": "Article 41",
+    "content": "This is the content of article 41.",
+    "price": 13.13
+  },
+  {
+    "id": 42,
+    "title": "Article 42",
+    "content": "This is the content of article 42.",
+    "price": 18.18
+  },
+  {
+    "id": 43,
+    "title": "Article 43",
+    "content": "This is the content of article 43.",
+    "price": 12.34
+  },
+  {
+    "id": 44,
+    "title": "Article 44",
+    "content": "This is the content of article 44.",
+    "price": 15.55
+  },
+  {
+    "id": 45,
+    "title": "Article 45",
+    "content": "This is the content of article 45.",
+    "price": 16.66
+  },
+  {
+    "id": 46,
+    "title": "Article 46",
+    "content": "This is the content of article 46.",
+    "price": 17.17
+  },
+  {
+    "id": 47,
+    "title": "Article 47",
+    "content": "This is the content of article 47.",
+    "price": 19.19
+  },
+  {
+    "id": 48,
+    "title": "Article 48",
+    "content": "This is the content of article 48.",
+    "price": 13.31
+  },
+  {
+    "id": 49,
+    "title": "Article 49",
+    "content": "This is the content of article 49.",
+    "price": 14.49
+  },
+  {
+    "id": 50,
+    "title": "Article 50",
+    "content": "This is the content of article 50.",
+    "price": 20.20
+  }
+]
