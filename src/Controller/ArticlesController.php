@@ -52,10 +52,4 @@ class ArticlesController extends AbstractController
             'previousPage' => $previousPage,
         ]);
     }
-
-    #[Route('/articles/{id}', name: 'app_articles_delete', methods: ['DELETE'])]
-    public function delete(Request $request): Response
-    {
-        return new Response();
-    }
 }
